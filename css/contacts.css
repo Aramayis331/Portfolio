@@ -1,0 +1,70 @@
+body {
+	background-color: #000000;
+}
+.row1_div1 {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo_row {
+	color: #3dcfd3;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0px;
+	cursor: pointer;
+}
+.input_name, .input_email {
+	margin-bottom: 25px;
+}
+.div_text {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.textarea_1 {
+	height: 150px;
+	color: #3dcfd3;
+	border: 2px solid #3dcfd3;
+	cursor: pointer;
+	background-color: #000000;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+.btnn {
+	background-color: #000000;
+	color: #ffffff;
+	border: 2px solid #3dcfd3;
+}
+.input_name::placeholder, .input_email::placeholder, .input_tema::placeholder, .input_phone::placeholder,.textarea_1::placeholder {
+	color: #ffffff;
+}
+.input_name:hover, .input_email:hover, .input_tema:hover, .input_phone:hover, .textarea_1:hover, .btnn:hover
+, .row_3div1:hover, .row_3div2:hover, .row_3div3:hover {
+	background-color: #3dcfd3;
+	transition: 1s;
+}
+.input_name, .input_email, .input_tema, .input_phone {
+	color: #3dcfd3;
+	border: 2px solid #3dcfd3;
+	cursor: pointer;
+	background-color: #000000;
+}
+.row_3div1, .row_3div2, .row_3div3 {
+	background-color: #000000;
+	border: 2px solid #3dcfd3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+	color: #ffffff;
+	padding: 20px;
+}
+.emaill, .phonee, .homee {
+	margin: 0px;
+}

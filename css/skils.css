@@ -1,0 +1,81 @@
+body {
+	background-color: #000000;
+}
+.row1_div1 {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo_row {
+	color: #3dcfd3;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0px;
+	cursor: pointer;
+}
+.html_row {
+	margin-bottom: 20px;
+}
+.css_row {
+	margin-bottom: 20px;
+}
+.line {
+	display: flex;
+}
+.name_html,.name_css,.name_js {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 0px 5px 0px;
+}
+.html_tokos,.css_tokos,.js_tokos {
+	margin: 0px;
+	cursor: pointer;
+	color: #3dcfd3;
+}
+.html_tokos:hover,.css_tokos:hover,.js_tokos:hover {
+	margin: 0px;
+	cursor: pointer;
+	transition: 1s;
+	color: #ffffff;
+}
+.html_line {
+	padding: 1.5px;
+	background-color: #3dcfd3;
+	width: 95%;
+}
+.html_line_min {
+	background-color: #ffffff;
+	width: 5%;
+	padding: 1.5px;
+}
+.css_line {
+	padding: 1.5px;
+	background-color: #3dcfd3;
+	width: 80%;
+}
+.css_line_min {
+	background-color: #ffffff;
+	width: 20%;
+	padding: 1.5px;
+}
+.js_line {
+	padding: 1.5px;
+	width: 20%;
+	background-color: #3dcfd3;
+}
+.js_line_min {
+	background-color: #ffffff;
+	width: 80%;
+	padding: 1.5px;
+}
+.html,.css,.js {
+	color: #ffffff;
+	cursor: pointer;
+	margin: 0px;
+}
+.html:hover,.css:hover,.js:hover {
+	color: #3dcfd3;
+	transition: 1s;
+}
