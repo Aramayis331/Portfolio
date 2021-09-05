@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1399px) {
+	.btn_aboutme {
+		width: 26.5%;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.btn_aboutme {
+		width: 31%;
+	}
+	.row_1 {
+		margin-top: 120px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.row_1_p1, .row_1_p3 {
+		font-size: 17px;
+	}
+	.row_1_p2 {
+		font-size: 27px;
+	}
+	.row_1 {
+		margin-top: 110px;
+	}
+	.btn_aboutme {
+		width: 38%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.photo_portfolio {
+		width: 190px;
+		height: 180px;
+	}
+	.row_1_p2 {
+		font-size: 25px;
+		margin: 10px 0px;
+	}
+	.row_1_p1, .row_1_p3 {
+		font-size: 15px;
+		margin: 0px;
+	}
+	.btn_aboutme {
+		width: 46%;
+		height: 40px;
+		font-size: 19px;
+	}
+	.modal-content {
+		margin-top: 120px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.img_portfolio:hover {
+		transform: scale(1.1);
+	}
+	.modal-content {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.modal-content {
+		margin-top: 120px;
+	}
+	.modal_body_p {
+		font-size: 13px;
+		margin: 0px;
+	}
+	.modal_title p {
+		font-size: 17px;
+		margin: 0px;
+	}
+	.modal_footer button {
+		width: 27%;
+		height: 30px;
+		font-size: 15px;
+	}
+	.modal_header i {
+		font-size: 19px;
+		padding: 10px 10px 0px;
+	}
+}
+@media only screen and (max-width: 510px) {
+
+
+}

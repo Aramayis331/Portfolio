@@ -1,0 +1,17 @@
+@media only screen and (max-width: 991px) {
+	.nav_logo {
+		font-size: 24px;
+		padding: 10px;
+	}
+	.nav_link {
+		font-size: 16px;
+	}
+	.nav_item {
+		padding: 10px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.nav {
+		--bs-gutter-x: 0rem;
+	}
+}

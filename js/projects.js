@@ -16,18 +16,27 @@ $('.rev_slider_project').slick({
 		}
 		},
 		{
+		breakpoint: 992,
+		settings: {
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			arrows: true,
+		}
+		},
+		{
 		breakpoint: 768,
 		settings: {
 			slidesToShow: 1,
 			slidesToScroll: 1,
-			arrows: false,
+			arrows: true,
 		}
 		},
 		{
-		breakpoint: 480,
+		breakpoint: 600,
 		settings: {
 			slidesToShow: 1,
-			slidesToScroll: 1
+			slidesToScroll: 1,
+			arrows: false,
 		}
 		}
 	]
