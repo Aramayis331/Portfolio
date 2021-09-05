@@ -13,7 +13,7 @@
 <body>
 	<div class="container">
 		<nav class="navbar navbar-expand-md nav"> 
-					<a class="nav_logo" href="#">Ծրագրավորող</a>
+					<a class="nav_logo" href="index.html">Ծրագրավորող</a>
 				<button class="navbar-toggler button_nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars icon_bar"></i>
 				</button>
@@ -48,8 +48,38 @@
 			</div>
 		</div>
 	</div>
+	<!-- row_2 -->
+	<!-- modal -->
+	<div id="myModal" class="modal fade" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal_header">
+					<div class="close_modal" data-bs-dismiss="modal"><i class="fas fa-times"></i></div>
+				</div>
+				<div class="modal_title">
+					<p>Իմ մասին</p>
+				</div>
+				<div class="modal-body">
+					<p class="modal_body_p">
+						Ծնվել եմ 1999 թ-ի օգոստոսի 9-ին ք․Էջմիածնում։ 2005-ից մինչև 2016 թ-ը սովորել եմ Բաղրամյանի միջնակարգ դպրոցում։
+						2016-ից 1․5 տարի սովորել եմ ՀԱՊՀ-ի՝ կիրառական մաթեմատիկա և ինֆորմատիկա բաժինում, և 2018 թ-ի ամռանը զորակոչվել բանակ։
+						2020 թ-ին զորացրվում եմ բանակից և շարունակում համալսարանը։Օտար լեզուներից տիրապետում եմ ռուսերենի և որոշ չափով անգլերենի։
+						</p> 
+				</div>
+				<div class="modal_footer">
+					<button data-bs-dismiss="modal">Փակել</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-
+	<div class="row">
+		<div class="col-12">
+			<div class="about_me">
+				<button data-bs-toggle="modal" data-bs-target="#myModal" class="btn_aboutme">Իմ մասին</button>
+			</div> 
+		</div>
+	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>

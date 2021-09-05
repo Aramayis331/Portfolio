@@ -57,3 +57,73 @@ body {
 .img_portfolio:hover {
 	transform: scale(1.2);
 }
+.btn_aboutme {
+	background-color: #000000;
+	border:2px solid #3dcfd3;
+	color: #ffffff;
+	width: 22.5%;
+	height: 50px;
+	font-size: 20px;
+	transition: 1s;
+	border-radius: 0.3rem;
+}
+.btn_aboutme:hover {
+	background-color: #3dcfd3;
+}
+.modal-content {
+	background-color: #000000;
+	border: 2px solid #3dcfd3;
+	margin-top: 180px;
+}
+.modal_header, .modal_footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.modal_footer button{
+	margin: 10px;
+	background-color: #000000;
+	border:2px solid #3dcfd3;
+	border-radius: 0.3rem;
+	color: #ffffff;
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+	transition: 1s;
+	border-radius: 0.3rem;
+}
+.modal_footer button:hover {
+	background-color: #3dcfd3;
+}
+.modal_header i {
+	padding: 10px;
+	font-size: 20px;
+	color: #3dcfd3;
+	cursor: pointer;
+	transition: 1s;
+}
+.modal_header i:hover {
+	color: #ffffff;
+}
+.modal_title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal_title p {
+	font-size: 18px;
+	color: #ffffff;
+	cursor: pointer;
+	transition: 1s;
+}
+.modal_title p:hover {
+	color: #3dcfd3;
+}
+.modal_body_p {
+	color: #3dcfd3;
+	cursor: pointer;
+	transition: 1s;
+}
+.modal_body_p:hover {
+	color: #ffffff;
+}

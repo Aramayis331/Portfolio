@@ -7,13 +7,15 @@
 	<link rel="stylesheet" href="../css/bootstrap.css">
 	<link rel="stylesheet" href="../css/header.css">
 	<link rel="stylesheet" href="../css/projects.css">
+	<link rel="stylesheet" href="../libs/slick/slick.css">
+	<link rel="stylesheet" href="../libs/slick/slick-theme.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<title>myPortfolio</title>
 </head>
 <body>
 	<div class="container">
 			<nav class="navbar navbar-expand-md nav"> 
-					<a class="nav_logo" href="#">Ծրագրավորող</a>
+					<a class="nav_logo" href="../index.html">Ծրագրավորող</a>
 				<button class="navbar-toggler button_nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars icon_bar"></i>
 				</button>
@@ -37,40 +39,46 @@
 		<!-- row_1 -->
 		<div class="row">
 			<div class="col-12 row1_div1">
-				<p class="logo_row"></p>
+				<p class="logo_row">Իմ նախագծերը</p>
 			</div>
 		</div>
 		<!-- row_2 -->
-		<div class="row">
-			<div class="col-3">
-				<div class="div1">
-					<p>a</p>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="div2">
-					<p>a</p>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="div3">
-					<p>a</p>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="div4">
-					<p>a</p>
-				</div>
-			</div>
-		</div>
-
-
+		<div class="rev_slider_project">
+            <div class="slide">
+                <div class="carousel_card">
+                    <div class="carousel_card_img"> <img src="../images/slide-_1_.webp" alt="no photo"> </div>
+                </div> 
+            </div>
+            <div class="slide">
+                <div class="carousel_card">
+                    <div class="carousel_card_img">
+						<a href="https://aramayis331.github.io/Profit_Geek/">
+							<img src="../images/ProfitGeek.webp" alt="no photo"> 
+						</a> 
+					</div>
+                </div> 
+            </div>
+            <div class="slide">
+                <div class="carousel_card">
+                    <div class="carousel_card_img"> <img src="../images/slide-_2_.webp" alt="no photo"></div>
+                </div> 
+            </div>
+    
+            <!-- add new card -->
+            <div class="slide">
+                <div class="carousel_card">
+                    <div class="carousel_card_img"> <img src="../images/slide-_2_.webp" alt="no photo"> </div>
+                </div> 
+            </div>
+        </div>
 
 
 
 	</div>
 
-
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="../js/jquery-3.6.0.min.js"></script>
+	<script src="../libs/slick/slick.min.js"></script>
+	<script src="../js/projects.js"></script>
 </body>
 </html>
