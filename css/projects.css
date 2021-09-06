@@ -58,15 +58,17 @@ body {
 }
 .iconi {
 	position: absolute;
-	top: 43%;
-	right: 27%;
+	top: 45%;
+	right: 37%;
 	z-index: 55;
 	opacity: 0;
 	transition: 1s;
 }
+.eye {
+	transform: translateX(15px);
+}
 .iconi i {
 	color: #ffffff;
-	padding: 10px;
 	font-size: 35px;
 	transition: 0.5s;
 }

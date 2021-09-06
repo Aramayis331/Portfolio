@@ -1,3 +1,16 @@
+@media only screen and (max-width: 1199px) {
+	.iconi {
+		right: 32%;
+	}
+	.iconi i {
+		font-size: 33px;	
+	}
+}
+@media only screen and (max-width: 991px) {
+	.iconi {
+		right: 34%;
+	}
+}
 @media only screen and (max-width: 767px) {
 	.carousel_card_img {
 		height: 320px;
@@ -8,6 +21,22 @@
 	.row1_div1 {
 		margin-top: 20px;
 	}
+	.iconi {
+		top: 48%;
+		right: 39%;
+	}
+	.iconi i {
+		font-size: 36px;	
+	}
+}
+@media only screen and (max-width: 450px) { 
+	.iconi {
+		top: 48%;
+		right: 37%;
+	}
+	.iconi i {
+		font-size: 33px;	
+	}
 }
 @media only screen and (max-width: 380px) { 
 	.carousel_card_img {
@@ -15,5 +44,22 @@
 	}
 	.rev_slider_project {
 		width: 65%;
+	}
+	.iconi {
+		top: 46%;
+		right: 39%;
+	}
+	.iconi i {
+		font-size: 28px;	
+	}
+}
+@media only screen and (max-width: 350px) { 
+	.iconi {
+		right: 37%;
+	}
+}
+@media only screen and (max-width: 320px) { 
+	.iconi {
+		right: 36%;
 	}
 }
