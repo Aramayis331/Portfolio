@@ -15,6 +15,17 @@
 		--bs-gutter-x: 0rem;
 	}
 }
+@media only screen and (max-width: 520px) {
+	.nav_link {
+		font-size: 15px;
+	}
+	.nav_item {
+		padding: 6px;
+	}
+	.nav_logo {
+		padding: 6px;
+	}
+} 
 @media only screen and (max-width: 420px) { 
 	.navbar-toggler {
 		padding: 0.25rem 0.65rem;

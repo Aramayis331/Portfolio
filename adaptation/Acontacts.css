@@ -84,6 +84,7 @@
 	}
 	.btnn {
 		font-size: 12px;
+		padding: 0.3rem 1.5rem;
 	}
 	.input_name, .input_email {
 		margin-bottom: 10px;

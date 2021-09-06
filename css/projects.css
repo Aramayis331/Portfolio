@@ -33,14 +33,53 @@ body {
 .carousel_card_img img {
 	width: 100%;
 	height: 100%;
+	transition: 2s;
 }
 .carousel_card_img {
 	border: 2px solid #3dcfd3;
 	border-radius: 0.3rem;
 	cursor: pointer;
 	height: 336px;
-	opacity: 0.5;
+	position: relative;
+}
+.name_project {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #000000;
+	color: #3dcfd3;
+	border-top: 2px solid #3dcfd3;
+	z-index: 50;
+	display: flex;
+	transition: 2s;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+}
+.iconi {
+	position: absolute;
+	top: 43%;
+	right: 27%;
+	z-index: 55;
+	opacity: 0;
 	transition: 1s;
+}
+.iconi i {
+	color: #ffffff;
+	padding: 10px;
+	font-size: 35px;
+	transition: 0.5s;
+}
+.iconi i:hover {
+	opacity: 0.5;
+}
+.carousel_card_img:hover .iconi{
+	opacity: 1;
+	transition: 2s;
+} 
+.name_project p {
+	margin: 0px;
+	font-size: 20px;
 }
 .carousel_card {
 	margin: 0 auto;
@@ -48,6 +87,11 @@ body {
     width: 100%;
 	padding: 10px;
 }
-.carousel_card_img:hover {
-	opacity: 1;
+.carousel_card_img:hover img {
+	opacity: 0.5;
+	transition: 2s;
 } 
+.carousel_card_img:hover .name_project {
+	opacity: 0;
+	transition: 1s;
+}
