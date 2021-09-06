@@ -25,6 +25,24 @@
 	.nav_logo {
 		padding: 6px;
 	}
+	.menu-btn__burger {
+		width: 25px;
+		height: 2px;
+	}
+	.menu-btn__burger::before,
+	.menu-btn__burger::after {
+		width: 25px;
+		height: 2px;
+	}
+	.menu-btn {
+		padding: 15px 8px !important;
+	}
+	.menu-btn__burger::before {
+		transform: translateY(-8px);
+	}
+	.menu-btn__burger::after {
+		transform: translateY(8px);
+	}
 } 
 @media only screen and (max-width: 420px) { 
 	.navbar-toggler {
@@ -68,5 +86,23 @@
 	}
 	.nav_link {
 		font-size: 13px;
+	}
+	.menu-btn__burger {
+		width: 20px;
+		height: 2px;
+	}
+	.menu-btn__burger::before,
+	.menu-btn__burger::after {
+		width: 20px;
+		height: 2px;
+	}
+	.menu-btn {
+		padding: 12px 5px !important;
+	}
+	.menu-btn__burger::before {
+		transform: translateY(-6px);
+	}
+	.menu-btn__burger::after {
+		transform: translateY(6px);
 	}
 }
