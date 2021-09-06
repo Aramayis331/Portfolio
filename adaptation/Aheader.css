@@ -15,3 +15,47 @@
 		--bs-gutter-x: 0rem;
 	}
 }
+@media only screen and (max-width: 420px) { 
+	.navbar-toggler {
+		padding: 0.25rem 0.65rem;
+		font-size: 1rem;
+	}	
+	.button_nav {
+		border: 2px solid #3dcfd3 !important;
+	}
+	.nav_item {
+		padding: 4px;
+	}
+	.nav_link {
+		font-size: 14px;
+	}
+	.nav_logo {
+		font-size: 22px;
+		padding: 4px;
+	}
+	.logo_row {
+		font-size: 20px;
+	}
+	.input_name, .input_email, .input_tema, .input_phone, .textarea_1 {
+		font-size: 11px !important;
+	}
+}
+@media only screen and (max-width: 320px) { 
+	.nav_logo {
+		font-size: 20px;
+		padding: 0px;
+	}
+	.navbar-toggler {
+		padding: 0.2rem 0.4rem;
+		font-size: 0.8rem;
+	}
+	.button_nav {
+		border: 2px solid #3dcfd3 !important;
+	}
+	.nav_item {
+		padding: 2px;
+	}
+	.nav_link {
+		font-size: 13px;
+	}
+}

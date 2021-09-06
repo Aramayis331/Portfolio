@@ -50,3 +50,88 @@
 		font-size: 13px;
 	}
 }
+@media only screen and (max-width: 520px) {
+	.row_3 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.row_3col-4 {
+		width: 100%;
+		padding: 5px;
+	}
+	.div_text {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.button {
+		margin-bottom: 10px;
+	}
+	.row_3div1, .row_3div2, .row_3div3 {
+		padding: 10px;
+		height: 35px;
+		flex-direction: row;
+	}
+	.phone, .home, .email {
+		padding: 5px;
+	}
+	.textarea_1 {
+		height: 90px;
+	}
+	.input_name::placeholder, .input_email::placeholder, .input_tema::placeholder, .input_phone::placeholder,.textarea_1::placeholder {
+		font-size: 11px;
+	}
+	.btnn {
+		font-size: 12px;
+	}
+	.input_name, .input_email {
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.input_name::placeholder, .input_email::placeholder, .input_tema::placeholder, .input_phone::placeholder,.textarea_1::placeholder {
+		font-size: 9px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.input_name::placeholder, .input_email::placeholder, .input_tema::placeholder, .input_phone::placeholder,.textarea_1::placeholder {
+		font-size: 8px;
+	}
+	.form-control {
+		padding: 0.2rem 0.5rem;
+		font-size: 0.7rem;
+	}
+	.input_name, .input_email, .input_tema, .input_phone, .textarea_1 {
+		font-size: 9px;
+	}
+	.logo_row {
+		font-size: 17px;
+	}
+	.btnn {
+		font-size: 10px;
+		padding: 0.2rem 1.5rem;
+	}
+	.div_text {
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+	.button {
+		margin-bottom: 5px;
+	}
+	.row_3div1, .row_3div2, .row_3div3 {
+		height: 30px;
+	}
+	.phonee, .homee, .emaill {
+		font-size: 9px;
+	}
+	.home, .email, .phone i {
+		font-size: 10px;
+	}
+	.textarea_1 {
+		height: 65px;
+	}
+	.row_3col-4 {
+		padding: 3px;
+	}
+}
