@@ -43,21 +43,21 @@
 			</div>
 		</div>
 		<!-- row_2 -->
-		<form action="action.php" method="GET">
+		<form action="../php/contacts.php" method="POST">
 			<div class="form-group">
 				<div class="row">
 					<div class="col-6">
-						<input type="text" class="form-control input_name" id="name" placeholder="Անուն" title="Разрешено использовать только пробелы и латинские буквы" pattern="^[a-zA-Z\s]+$">
-						<input type="text" class="form-control input_tema" id="teman" placeholder="Թեմա">
+						<input type="text" required class="input_name" id="name" name="name" placeholder="Անուն">
+						<input type="text" required class="input_tema" id="teman" name="tema" placeholder="Թեմա">
 					</div>
 					<div class="col-6">
-						<input type="email" class="form-control input_email" id="email" placeholder="էլեկտրոնային հասցե">
-						<input type="number" class="form-control input_phone" id="phone" placeholder="Հեռախոսահամար">
+						<input type="email" required class="input_email" id="email" name="email" placeholder="էլեկտրոնային հասցե">
+						<input type="number" required class="input_phone" id="phone" name="phone" placeholder="Հեռախոսահամար">
 					</div>
 				</div>
 				<div class="row div_text">
 					<div class="col-12">
-						<textarea class="form-control textarea_1" placeholder="......"></textarea>
+						<textarea class="textarea_1" id="message" name="text_message" required placeholder="......"></textarea>
 					</div>
 				</div>
 			</div>
